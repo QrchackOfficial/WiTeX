@@ -92,7 +92,7 @@ ul {
 /* Content Box */
 
 .mw-body {
-	max-width: 950px;
+	max-width: 1050px;
 	margin: 1em auto;
 }
 
@@ -299,6 +299,17 @@ a, a.visited {
 	.mw-body {
 		padding-left: 10em !important;
 	}
+}
+
+body {
+	overflow-x: hidden;
+}
+
+table {
+	table-layout: fixed;
+	max-width: 100%;
+	font-size: 75%;
+	font-family: sans-serif;
 }
 
 @media (max-width: 900px) {
